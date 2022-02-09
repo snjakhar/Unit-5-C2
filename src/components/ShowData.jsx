@@ -1,20 +1,23 @@
 import { useEffect, useState } from "react";
 import "./ShowData.css";
-export const ShowData = () => {
+
+export const ShowData = ( ) => {
   let [data, setData] = useState([]);
   useEffect(() => {
     getData();
   }, []);
+  
   const getData = () => {
     fetch("http://localhost:3001/games")
       .then((d) => d.json())
       .then((res) => {
-        res.sort((a,b)=>{
-           if(a.gamename>b.gamename)return -1;
-           else if(a.gamename<b.gamename)return  1;
-           else return 0;
-        })
-        setData(res);
+        res.sort((a, b) => {
+          if (a.gamename > b.gamename) return -1;
+          else if (a.gamename < b.gamename) return 1;
+          else return 0;
+        });
+         const sorted = [...res];
+         setData(sorted);
       });
   };
 
@@ -30,10 +33,11 @@ export const ShowData = () => {
               game price
               <button
                 onClick={() => {
-                 let s= data.sort((a, b) => {
+                  const s = [...data];
+                  s.sort((a, b) => {
                     return a.gameprice - b.gameprice;
                   });
-
+                  setData(s);
                 }}
                 id="sortbyprice"
               >

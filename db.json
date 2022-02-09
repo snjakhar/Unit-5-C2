@@ -49,6 +49,86 @@
       "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
       "gamerating": "5",
       "id": 5
+    },
+    {
+      "gamename": "Mario",
+      "gameauthor": "Nintendo",
+      "gameprice": "599",
+      "gametags": "adventure, multiplayer",
+      "forkids": "true",
+      "gamedesc": "Super Mario is a platform game series created by Nintendo based on and starring the fictional plumber Mario.",
+      "gamerating": "3",
+      "id": 6
+    },
+    {
+      "gamename": "Titanfall",
+      "gameauthor": "Respawn",
+      "gameprice": "1299",
+      "gametags": "FPS",
+      "forkids": "true",
+      "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
+      "gamerating": "5",
+      "id": 7
+    },
+    {
+      "gamename": "Mario",
+      "gameauthor": "Nintendo",
+      "gameprice": "599",
+      "gametags": "adventure, multiplayer",
+      "forkids": "true",
+      "gamedesc": "Super Mario is a platform game series created by Nintendo based on and starring the fictional plumber Mario.",
+      "gamerating": "3",
+      "id": 8
+    },
+    {
+      "gamename": "Titanfall",
+      "gameauthor": "Respawn",
+      "gameprice": "1299",
+      "gametags": "FPS",
+      "forkids": "true",
+      "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
+      "gamerating": "5",
+      "id": 9
+    },
+    {
+      "gamename": "Mario",
+      "gameauthor": "Nintendo",
+      "gameprice": "599",
+      "gametags": "adventure, multiplayer",
+      "forkids": "true",
+      "gamedesc": "Super Mario is a platform game series created by Nintendo based on and starring the fictional plumber Mario.",
+      "gamerating": "3",
+      "id": 10
+    },
+    {
+      "gamename": "Titanfall",
+      "gameauthor": "Respawn",
+      "gameprice": "1299",
+      "gametags": "FPS",
+      "forkids": "true",
+      "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
+      "gamerating": "5",
+      "id": 11
+    },
+    {
+      "gamename": "dilip",
+      "gameauthor": "jakhar",
+      "gametags": "car",
+      "gameprice": "200",
+      "forkids": "true",
+      "gamedesc": "asfda",
+      "gamerating": "2",
+      "id": 12
+    },
+    {
+      "gamename": "raja",
+      "gameauthor": "srinivas",
+      "gameprice": "200",
+      "gametags": "danger",
+      "forkids": "true",
+      "gamedesc": "gh",
+      "gamerating": "2",
+      "id": 13
     }
   ]
 }
